@@ -61,18 +61,17 @@ git clone https://github.com/ujjesha1312/nano-rag-assistant.git
 cd nano-rag-assistant
 ```
 
-3. Install dependencies
+2. Install dependencies
 ```
 pip install -r requirements.txt
 ```
 
-5. Configure environment (optional)
+3. Configure environment (optional)
 
 Create a .env file:
-
+```
 OPENAI_API_KEY=your_api_key_here
-
-
+```
 If no API key is provided, the system runs in demo mode.
 
 ### Build Vector Database
@@ -90,9 +89,9 @@ python -m app.main
 ```
 
 Open the browser UI and ask:
-
+```
 Who is Alex Lancaster?
-
+```
 ### Example Use Cases
 
 Internal company knowledge assistant
