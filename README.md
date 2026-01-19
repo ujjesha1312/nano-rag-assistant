@@ -91,6 +91,7 @@ python -m app.main
 Open the browser UI and ask:
 ```
 Who is Alex Lancaster?
+Answer: Alex Lancaster is the CTO at NanoRAG Corp...
 ```
 ### Example Use Cases
 
